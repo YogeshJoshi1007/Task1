@@ -116,7 +116,7 @@ describe("API request after form sumbit",()=>{
 
           expect(btn).not.toBeDisabled();
 
-          expect(axios.post).toHaveBeenCalledWith(`http://127.0.0.1:8000/verify/`,{
+          expect(axios.post).toHaveBeenCalledWith(`https://api.paymeindia.in/api/v2/authentication/phone_no_verify/`,{
             phone_number:"9999999999"
           });
           
@@ -285,7 +285,7 @@ expect(screen.getByRole('button')).toBeDisabled();
               const btn=screen.getByTestId('input-continue');
               userEvent.click(btn);
     
-              expect(axios.post).toHaveBeenCalledWith(`http://127.0.0.1:8000/verify/`,{
+              expect(axios.post).toHaveBeenCalledWith(`https://api.paymeindia.in/api/v2/authentication/phone_no_verify/`,{
                 phone_number:"9999999999"
               });
               
