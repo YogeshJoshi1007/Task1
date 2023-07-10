@@ -1,0 +1,53 @@
+#x{
+    margin: 113px 38px 78px 111px;
+    text-align: center;
+}
+.h3, h3 {
+    font-size: 32px;
+}
+.input-wrapper{
+    padding:30px;
+}
+.btn{
+    background-color: #fc6603; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    
+}
+#number2{
+    font-size: 26px;
+    border-radius: 8px;
+}
+
+.otp-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .otp-input input {
+    width: 50px;
+    padding: 10px;
+    margin: 0 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
